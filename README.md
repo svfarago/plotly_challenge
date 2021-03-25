@@ -2,11 +2,19 @@
 * This project uses Javascript, Plotly, CSS, and HTML
 
 ## ReadMe File
-* Updated: March 24, 2021 | Created: March 24, 2021
+* Updated: March 25, 2021 | Created: March 24, 2021
 * Copyright: open source
 
-### License ===========================
-* None. See Installation instructions below for a list of applications.
+
+
+### Overview ========
+![Bacteria by filterforge.com](Images/bacteria.jpg)
+
+In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
+
+
+
+
 
 
 ### Configuration Instructions ========
@@ -28,7 +36,16 @@ Applications used:
 
 ### List of Files ====================
 * \plotly_challenge
+*      index.html
+*      samples.json
 *      README.md
+*   \static
+*        \js
+*         gitkeep
+*          app.js  
+*   \Images
+*       bacteria.jpeg
+
 
 
 ### Operating Instructions =============
@@ -42,7 +59,7 @@ Applications used:
 ### Data Set(s) =======================
 * See also "List of Files" section above for files associated with this project.
 * Dataset provided: 
-
+The data for this project comes from the Belly Button Biodiversity data set from The Public Science Lab of NC State: http://robdunnlab.com/projects/belly-button-biodiversity/
 
 ### Additional Resources =======================
 * None.
