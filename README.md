@@ -18,7 +18,7 @@ In this assignment, you will build an interactive dashboard to explore the [Bell
 ### Configuration Instructions ========
 * I installed LiveServer in VSCode in order to render the index.html page correctly and pull the samples.json data through the browser at URL: http://127.0.0.1:5500/index.html. Index.html file will not display samples.json correctly if running from c:\ directory.
 
-* Version of LiveServer = RitwickDey
+* Version of Live Server = RitwickDey
 
 
 ### Installation Instructions ==========
@@ -26,7 +26,7 @@ Applications used:
 
 - Javascript / Plotly
 - Google Chrome browser
-- Visual Studio Code
+- Visual Studio Code + Live Server
 - GitBash terminal
 - Git Hub (to save versions and share code while in development)
 - Image viewer such as Microsoft Photos or Microsoft Paint
@@ -91,4 +91,4 @@ Colorado   United States
 
 
 ### Random Notes ===============
-* This project uses Javascript, Plotly, CSS, and HTML  ||  Time to complete: approximately xxx hours
+* This project uses Javascript, Plotly, CSS, and HTML  ||  Time to complete: approximately 18 hours
