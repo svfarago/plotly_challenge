@@ -15,10 +15,10 @@ In this assignment, you will build an interactive dashboard to explore the [Bell
 
 
 
-
-
 ### Configuration Instructions ========
-* None
+* I installed LiveServer in VSCode in order to render the index.html page correctly and pull the samples.json data through the browser at URL: http://127.0.0.1:5500/index.html. Index.html file will not display samples.json correctly if running from c:\ directory.
+
+* Version of LiveServer = RitwickDey
 
 
 ### Installation Instructions ==========
@@ -36,15 +36,14 @@ Applications used:
 
 ### List of Files ====================
 * \plotly_challenge
-*      index.html
+*      index.html < Note no change required to this file at all. Worked as provided.
 *      samples.json
 *      README.md
 *   \static
 *        \js
 *         gitkeep
 *          app.js  
-*   \Images
-*       bacteria.jpeg
+
 
 
 
@@ -79,7 +78,9 @@ The data for this project comes from the Belly Button Biodiversity data set from
 * Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 * Web URLs:
--
+- https://www.dashingd3js.com/d3-tutorial/use-d3-js-to-bind-data-to-dom-elements
+- https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/
+- https://www.freecodecamp.org/news/visual-studio-code-live-server-not-working/
 
 * URLs last used: March 24, 2021
 
