@@ -2,7 +2,7 @@
 * This project uses Javascript, Plotly, CSS, and HTML
 
 ## ReadMe File
-* Updated: March 25, 2021 | Created: March 24, 2021
+* Updated: March 26, 2021 | Created: March 24, 2021
 * Copyright: open source
 
 
@@ -81,8 +81,9 @@ The data for this project comes from the Belly Button Biodiversity data set from
 - https://www.dashingd3js.com/d3-tutorial/use-d3-js-to-bind-data-to-dom-elements
 - https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/
 - https://www.freecodecamp.org/news/visual-studio-code-live-server-not-working/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 
-* URLs last used: March 24, 2021
+* URLs last used: March 26, 2021
 
 
 ###  Contact Information ===============
