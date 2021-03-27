@@ -50,6 +50,7 @@ function buildPlot(subjectID){
         // x = top 10 descending OTU samples for selected test subject
         // y = top 10 decending OTU ID
         // otu_ids as labels | otu_labels as tooltip
+        // .map to map otuID with OTU
 
         var barTrace = {
             x: sampleValues.slice(0,10).reverse(),
@@ -83,6 +84,7 @@ function buildPlot(subjectID){
         // Console to check data
         console.log(barData);
 
+//------------- BUBBLE CHART --------------    
 
 
 
