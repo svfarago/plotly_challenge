@@ -2,7 +2,7 @@
 * This project uses Javascript, Plotly, CSS, and HTML
 
 ## ReadMe File
-* Updated: March 26, 2021 | Created: March 24, 2021
+* Updated: March 27, 2021 | Created: March 24, 2021
 * Copyright: open source
 
 
@@ -19,6 +19,7 @@ In this assignment, you will build an interactive dashboard to explore the [Bell
 * I installed LiveServer in VSCode in order to render the index.html page correctly and pull the samples.json data through the browser at URL: http://127.0.0.1:5500/index.html. Index.html file will not display samples.json correctly if running from c:\ directory.
 
 * Version of Live Server = RitwickDey
+
 
 
 ### Installation Instructions ==========
@@ -46,9 +47,8 @@ Applications used:
 
 
 
-
 ### Operating Instructions =============
-*All pages are designed to run and interact with one another on a local machine. Web pages are not hosted on a central server.
+*All pages hosted on GitHub Pages.
 
 1. Open index.html in a browser
 2. 
@@ -57,8 +57,11 @@ Applications used:
 
 ### Data Set(s) =======================
 * See also "List of Files" section above for files associated with this project.
+
 * Dataset provided: 
-The data for this project comes from the Belly Button Biodiversity data set from The Public Science Lab of NC State: http://robdunnlab.com/projects/belly-button-biodiversity/
+-The data for this project comes from the Belly Button Biodiversity data set from The Public Science Lab of NC State: http://robdunnlab.com/projects/belly-button-biodiversity/
+
+-Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
 ### Additional Resources =======================
 * None.
@@ -78,12 +81,15 @@ The data for this project comes from the Belly Button Biodiversity data set from
 * Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 * Web URLs:
+- https://plot.ly/javascript/
+- https://plot.ly/javascript/gauge-charts/
 - https://www.dashingd3js.com/d3-tutorial/use-d3-js-to-bind-data-to-dom-elements
 - https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/
 - https://www.freecodecamp.org/news/visual-studio-code-live-server-not-working/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+- https://stackoverflow.com/questions/7884081/what-is-the-use-of-the-init-usage-in-javascript/7884217
 
-* URLs last used: March 26, 2021
+* URLs last used: March 27, 2021
 
 
 ###  Contact Information ===============

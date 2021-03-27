@@ -3,6 +3,8 @@
 function init() {
     // Populates drop-down list with data of all test subject IDs from samples.json file
     // This process binds data to DOM elements using D3.js
+    // Function allows responsiveness on web page (e.g. click a button, drop down) so function can be called when action is taken
+    
     d3.json("samples.json").then(function(data) {
         d3.select("#selDataset").selectAll("option") // select id="selDataset" in html
             .data(data.names)  // select names data from samples.json dataset
@@ -24,6 +26,7 @@ function optionChanged(subjectID){
 };
 
 // Set up plotting function for each subject ID
+// Call plotly() when a change takes place to the DOM
 function buildPlot(subjectID){
     d3.json("samples.json").then(function(data) {
         // Get the index from the selected subject and use it to call the metadata and sample data from the JSON object
@@ -79,6 +82,35 @@ function buildPlot(subjectID){
 
         // Console to check data
         console.log(barData);
+
+
+
+
+//------------- BONUS: GAUGE CHART --------------
+// Code shell directly from https://plot.ly/javascript/gauge-charts/  
+
+var gaugeTrace = 
+    {
+      domain: { x: [0, 1], y: [0, 1] },
+      value: metaData.wfreq,
+      title: {text: "Belly Button Washing - Scrubs per Week" },
+      type: "indicator",
+      mode: "gauge+number",
+      gauge: {
+        axis: {visible: true, range: [null, 9], tickmode: "linear", nticks: 10}, 
+    }
+};
+
+var gaugeLayout = {width: 600, height: 450, margin: { t: 0, b: 0 }};
+
+// Plot traces in the DOM 
+var gaugeData = [gaugeTrace];
+
+Plotly.newPlot("gauge", gaugeData, gaugeLayout);
+
+
+// Console to check data
+console.log(gaugeData);
 
 
 
