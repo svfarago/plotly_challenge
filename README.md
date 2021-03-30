@@ -2,7 +2,7 @@
 * This project uses Javascript, Plotly, CSS, and HTML
 
 ## ReadMe File
-* Updated: March 27, 2021 | Created: March 24, 2021
+* Updated: March 30, 2021 | Created: March 24, 2021
 * Copyright: open source
 
 
@@ -10,7 +10,7 @@
 ### Overview ========
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
+This is an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/) which catalogs the microbes that colonize human navels.
 
 
 
@@ -36,22 +36,23 @@ Applications used:
 
 
 ### List of Files ====================
-* \plotly_challenge
-*      index.html < Note no change required to this file at all. Worked as provided.
-*      samples.json
-*      README.md
-*   \static
-*        \js
-*         gitkeep
-*          app.js  
+- \plotly_challenge
+-       index.html < Note no change required to this file at all. Worked as provided.
+-       samples.json
+-       README.md
+-       \static
+-         \js
+-          gitkeep
+-          app.js  
 
 
 
 ### Operating Instructions =============
 *All pages hosted on GitHub Pages.
 
-1. Open index.html in a browser
-2. 
+1. Open index.html page to launch interactive dashboard
+- URL HERE
+
 
 
 
@@ -62,6 +63,7 @@ Applications used:
 -The data for this project comes from the Belly Button Biodiversity data set from The Public Science Lab of NC State: http://robdunnlab.com/projects/belly-button-biodiversity/
 
 -Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+
 
 ### Additional Resources =======================
 * None.
@@ -83,13 +85,17 @@ Applications used:
 * Web URLs:
 - https://plot.ly/javascript/
 - https://plot.ly/javascript/gauge-charts/
+- https://plotly.com/javascript/figure-labels/
+- https://www.w3schools.com/js/js_functions.asp
+- https://www.rapidtables.com/web/color/RGB_Color.html
 - https://www.dashingd3js.com/d3-tutorial/use-d3-js-to-bind-data-to-dom-elements
 - https://www.freecodecamp.org/news/vscode-live-server-auto-refresh-browser/
 - https://www.freecodecamp.org/news/visual-studio-code-live-server-not-working/
+- https://www.tutorialsteacher.com/d3js/loading-data-from-file-in-d3js#d3.json
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
 - https://stackoverflow.com/questions/7884081/what-is-the-use-of-the-init-usage-in-javascript/7884217
 
-* URLs last used: March 27, 2021
+* URLs last used: March 30, 2021
 
 
 ###  Contact Information ===============
