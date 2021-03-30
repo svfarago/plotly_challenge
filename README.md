@@ -40,19 +40,18 @@ Applications used:
 -       index.html < Note no change required to this file at all. Worked as provided.
 -       samples.json
 -       README.md
+-       bacteria.jpg
 -       \static
 -         \js
 -          gitkeep
 -          app.js  
 
 
-
 ### Operating Instructions =============
 *All pages hosted on GitHub Pages.
 
 1. Open index.html page to launch interactive dashboard
-- URL HERE
-
+- https://svfarago.github.io/plotly_challenge/index.html
 
 
 
