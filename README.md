@@ -6,20 +6,16 @@
 * Copyright: open source
 
 
-
 ### Overview ========
 ![Bacteria by filterforge.com](bacteria.jpg)
 
 This is an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/) which catalogs the microbes that colonize human navels.
 
 
-
-
 ### Configuration Instructions ========
 * I installed LiveServer in VSCode in order to render the index.html page correctly and pull the samples.json data through the browser at URL: http://127.0.0.1:5500/index.html. Index.html file will not display samples.json correctly if running from c:\ directory.
 
 * Version of Live Server = RitwickDey
-
 
 
 ### Installation Instructions ==========
@@ -34,9 +30,8 @@ Applications used:
 * Similar applications may also work.
 
 
-
 ### List of Files ====================
-- \plotly_challenge
+-   \plotly_challenge
 -       index.html < Note no change required to this file at all. Worked as provided.
 -       samples.json
 -       README.md
@@ -50,8 +45,7 @@ Applications used:
 ### Operating Instructions =============
 *All pages hosted on GitHub Pages.
 
-1. Open index.html page to launch interactive dashboard
-- https://svfarago.github.io/plotly_challenge/index.html
+1. Click to launch interactive dashboard: https://svfarago.github.io/plotly_challenge/index.html
 
 
 

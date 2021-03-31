@@ -8,7 +8,7 @@ function init() {
     
     d3.json("samples.json").then(function(data) {
         d3.select("#selDataset").selectAll("option") // select id="selDataset" in html
-            .data(data.names)  // select names data from samples.json dataset. See xlsx file for data table structure.
+            .data(data.names)  // select names data from samples.json dataset. See .xlsx file for data table structure.
             .enter()
             .append("option")
             .html((sid) =>`<option>${sid}</option>`) // See "option" in HTML. Note use of tick mark, not apostrophe for a template literal to contain placeholder for Subject ID No.
